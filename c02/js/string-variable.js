@@ -1,10 +1,7 @@
 // Create variables to hold the name and note text.
-var username;
-var message;
+var username = 'Molly';
+var message = 'See our upcoming range';
 
-// Assign values to these variables.
-username = 'Molly';
-message = 'See our upcoming range';
 
 // Get the element with an id of name.
 var elName = document.getElementById('name');

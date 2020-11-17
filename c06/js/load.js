@@ -1,7 +1,5 @@
-function setup() {                                  // Declare function
-  var textInput;                                    // Create variable
-  textInput = document.getElementById('username');  // Get username input
-  textInput.focus();                                // Give username focus
+function setup() { // Declare function
+    document.getElementById('password').focus(); // Get username input
 }
 
 window.addEventListener('load', setup, false); // When page loaded call setup()

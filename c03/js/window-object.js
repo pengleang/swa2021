@@ -1,6 +1,6 @@
 // Create a variable called msg to hold a message that will be shown on the page
 // Find the width of the browser window, and put this in the msg variable
-var msg = '<h2>browser window</h2><p>width: ' + window.innerWidth + '</p>';
+var msg = '<h2>browser window</h2><p>width: ' + window.innerWidth.length + '</p>';
 // Find the height of the window and add it to the msg variable
 msg += '<p>height: ' + window.innerHeight + '</p>';
 // Find the number of items in the browser window's history and add it to the msg variable

@@ -9,4 +9,4 @@ function checkUsername() { // Declare function
 
 var elUsername = document.getElementById('username'); // Get username input
 // When it loses focus call checkUsername()
-elUsername.addEventListener('change', checkUsername, false);
+elUsername.addEventListener('click', checkUsername, false);

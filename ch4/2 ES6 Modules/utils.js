@@ -1,8 +1,8 @@
 'use strict';
-let empRoles = new Map();
-console.log(typeof empRoles);
-console.log(empRoles instanceof Map);
-console.log(empRoles); // Module
+// let empRoles = new Map();
+// console.log(typeof empRoles);
+// console.log(empRoles instanceof Map);
+// console.log(empRoles); // Module
 
 /* export let message = 'Hey Guys !';
 

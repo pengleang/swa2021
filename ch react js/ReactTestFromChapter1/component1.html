@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head><!-- Edit->Line->Indent or Reindent -->
+	<meta charset="utf-8">
+	<title>React Component</title>
+	<script src="react.development.js" type="text/javascript"></script>
+	<script src="react-dom.development.js" type="text/javascript"></script>
+	<script src="babel.min.js" type="text/javascript"></script>
+	<style>
+	#container {
+		padding: 50px;
+		background-color: #EEE;
+	}
+	#container h1 {
+		font-size: 144px;
+		font-family: sans-serif;
+		color: #0080A8;
+	}
+</style>
+</head>
+<body>
+	<div id="container"></div>
+	<script type="text/babel">
+		class HelloWorld extends React.Component {
+		render(){//return <p>Hello, THis is component!</p>
+		return <p>Hello, {this.props.greetTarget}!</p>
+	}
+}
+ReactDOM.render(
+<div>
+	<HelloWorld greetTarget="Batman"/>
+	<HelloWorld greetTarget="Iron Man"/>
+	<HelloWorld greetTarget="Nicolas Cage"/>
+	<HelloWorld greetTarget="Mega Man"/>
+	<HelloWorld greetTarget="Bono"/>
+	<HelloWorld greetTarget="Catwoman"/>
+</div>,
+document.querySelector("#container")
+);
+</script>
+</body>
+</html>
